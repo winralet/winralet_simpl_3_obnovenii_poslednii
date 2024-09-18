@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background: #333333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+nav {
+  margin: 20px 0;
+}
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#b8b8b8;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 15px rgb(0 0 0 / 41%);
+  height:700px
+}
+
+
+.h2-container,p,.photo,.item{
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+
+@media (max-width: 600px) {
+  nav a {
+      display: block;
+      margin: 10px 0;
+  }
+}
+

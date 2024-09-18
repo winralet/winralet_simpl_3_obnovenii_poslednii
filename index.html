@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/15622/15622645.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Мой адаптивный сайт</title>
+</head>
+<body>
+
+<header>
+    <h1>Регистрация</h1>
+</header>
+
+<form id="registrationForm">
+    <input type="text" id="name" placeholder="Имя" required>
+    <input type="text" id="surname" placeholder="Фамилия" required>
+    <input type="email" id="email" placeholder="Эл. почта" required>
+    <input type="tel" id="phone" placeholder="Номер телефона" required>
+    <textarea id="services" placeholder="Что вы можете(ваши услуги)" required></textarea>
+    <input type="text" id="header" placeholder="Введите заголовок" required>
+    <input type="TEXT" id="text" placeholder="просто что нибудь напишите" required>
+    <input type="me" id="me" placeholder="напишите информацию про себя" required>
+    <h1>На выбор</h1>
+         <p>задайте цвет заднего фона</p>
+    <input type="color" id="backgroundColor" value="#ffffff" required>
+
+         <p>задайте цвет шрифта</p>
+    <input type="color" id="fontColor" value="#000000" required>
+
+         <p>задайте цвет заголовка</p>
+    <input type="color" id="headerColor" value="#333333" required>
+
+         <p>задайте цвет нижнего блока (подвала)</p>
+    <input type="color" id="footerColor" value="#333333">
+
+         <p>задайте цвет блока(на котором все будет)</p>
+    <input type="color" id="BlockColor" value="#ffffff">
+
+         <p>если не хотите менять цвет пропустите</p>
+    <button type="submit">Отправить</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
